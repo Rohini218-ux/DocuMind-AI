@@ -1,0 +1,24 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Local files and indexes
+backend/storage/pdfs/
+backend/storage/faiss/
+*.faiss
+*.pkl
+
+# Editor
+.vscode/
